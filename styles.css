@@ -1,0 +1,83 @@
+body {
+padding: 0;
+margin: 0;
+width: 100%
+
+}
+
+.container-fluid{
+    /* padding: 7% 15%; */
+  }
+
+.colored-section {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    margin-bottom: 100px;
+}
+/* Navigation Bar */
+  .main {
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+  }
+
+/* containers */
+  .top-container {
+    margin-top: 100;
+    text-align: center;
+    background-color: darkcyan;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url('/assets/components/phpthumbof/cache/group.813be5894ba7b9639b1ba6e2122b5de31.jpg');
+}
+
+.details {
+margin: auto;
+background-color:cyan;
+width: 20%;
+height: 300%;
+float: right;
+}
+
+.location {
+  background-color: darkkhaki;
+  margin: auto;
+}
+
+.events {
+  background-color: goldenrod;
+  margin: auto;
+}
+
+.programme {
+  background-color: royalblue;
+}
+
+.countdown {
+  background-color: burlywood;
+}
+
+.sponsors {
+  background-color: coral;
+}
+#scrollup {
+	background-color:#33bdef;
+	border-radius:28px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b6178;
+}
+#scrollup:hover {
+	background-color:#019ad2;
+}
+#scrollup:active {
+	position:relative;
+	top:1px;
+}
