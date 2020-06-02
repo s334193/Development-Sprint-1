@@ -1,83 +1,185 @@
-body {
-padding: 0;
-margin: 0;
-width: 100%
-
+@media only screen and (max-width: 959px) and (min-width: 768px)
+.contact_details {
+    width: 70%;
 }
 
-.container-fluid{
-    /* padding: 7% 15%; */
-  }
+	body{
+		padding: 0;
+		margin: 0;
+    width: 100%; 
+	}
 
-.colored-section {
+  .colored-section {
     overflow: hidden;
     background-color: #333;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     margin-bottom: 100px;
-}
-/* Navigation Bar */
+  }
+  /* Navigation Bar */
   .main {
     margin-top: 100px; /* Add a top margin to avoid content overlay */
   }
+  .photos {
+  background-color: peachpuff;
+  }
 
-/* containers */
+  .heading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  /* containers */
   .top-container {
     margin-top: 100;
     text-align: center;
-    background-color: darkcyan;
     padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: url('/assets/components/phpthumbof/cache/group.813be5894ba7b9639b1ba6e2122b5de31.jpg');
+    padding-bottom: 350px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+.middle-container {
+  text-align: center;
+  font-weight: bold;
+  background-color: wheat;
 }
 
-.details {
-margin: auto;
-background-color:cyan;
-width: 20%;
-height: 300%;
-float: right;
-}
 
-.location {
-  background-color: darkkhaki;
-  margin: auto;
-}
+  .title {
+    text-align:center ;
+    font-size: 3rem;
+    font-weight: bold;
+  }
 
-.events {
+  .card2{
+    margin: 16px;
+    width: 580px;
+    height: 350px;
+    min-height: 280px;
+    font-size: 16px;
+    text-align: left;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    margin: 24px;
+    transition: height 1s;
+    float: right;
+  }
+  
+  .card1{
+    margin: 16px;
+    width: 580px;
+    height: 550px;
+    min-height: 280px;
+    font-size: 16px;
+    text-align: left;
+    background-color: powderblue;
+    border-radius: 2px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    margin: 24px;
+    transition: height 1s;
+    float: right;
+  }
+  
+  .button {
+    background-color: #235784; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .map {
+    float: right;
+  }
+
+  .contact_details {
+    text-align: left;
+    position: absolute;
+    right: 0;
+    margin: 3em 0;
+    z-index: 99;
+    width: 55%;
+    background: #39a9a4;
+    color: #fff;
+    float: left;
+}
+  .card-section {
+  background-color: wheat;
+  padding-bottom: 600px;
+  }
+   
+  .competition-section {
+  background-color: #555; 
+  padding-bottom: 600px;
+  } 
+  
+   .reviews {
+  text-align: center;
+  background-color: #3c6f9c;
+  } 
+   .about {
+  background-color: #93b5b3;
+  font-size: 2rem;
+  } 
+  
+   .content-location {
+  text-align: center;
+  color: white;
+  } 
+  
+   .events {
   background-color: goldenrod;
-  margin: auto;
-}
-
-.programme {
-  background-color: royalblue;
-}
-
-.countdown {
-  background-color: burlywood;
-}
-
-.sponsors {
+  } 
+  
+  .sponsors {
   background-color: coral;
-}
-#scrollup {
-	background-color:#33bdef;
-	border-radius:28px;
-	border:1px solid #057fd0;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #5b6178;
-}
-#scrollup:hover {
-	background-color:#019ad2;
-}
-#scrollup:active {
-	position:relative;
-	top:1px;
-}
+  }
+  #myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: yellow; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+  background-color: #555; 
+  }
+  
+  .countdown {
+  text-align: center;
+  background-color: #00818a;
+  font-size: 3rem;
+  padding-top: 50px;
+  padding-bottom: 100px
+  }
+  
+  .news {
+  padding-top: 60px;
+  text-align: left;
+  background-color: white;
+  }
+  
+  .challenges {
+  background-color: #b2085d;
+  }
+  .photo {
+    float: right;
+  }
