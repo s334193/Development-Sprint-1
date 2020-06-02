@@ -14,7 +14,13 @@
   </head>
   <body>
 
-    <div class="container">
+    <style>
+      body {
+        background-image: url('./assets/images/competition.jpg');
+        /* background-repeat: repeat; */
+        background-size: 100% 100%;
+      }
+      </style>
 
     <section class="colored-section" id="title">
 
@@ -35,7 +41,7 @@
                 <a class="nav-link" href="index.html">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="CHALLANGES.html">CHALLANGES</a>
+                <a class="nav-link" href="CHALLENGES.html">CHALLENGES</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="COMPETITION.html">COMPETITION</a>
@@ -44,16 +50,10 @@
                 <a class="nav-link" href="EVENTS.html">EVENTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="FOR-SCHOOLS.html">FOR SCHOOLS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ABOUT.html">ABOUT</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="RESOURCES.html">RESOURCES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#CONTACT-US">CONTACT US</a>
+                <a class="nav-link" href="./CONTACT-US.html">CONTACT US</a>
               </li>
             </ul>
   
@@ -66,17 +66,53 @@
         <h1>Competitions</h1>
         <span>Amaizing Competitions to take part in</span>
         </div>
-  
-        <div class="middle-container">
-        <h2>This Year's Competitions</h2>
+
+    </section>
+
+    <section>
+    
+      <div class="competition-section">
+        <div class="card1">
+          <div class="media"><img src="./assets/images/coding.jpg" alt="introduction"/></div>
+          <h1>Coding Competitions</h1>
+        <ul>
+          <li>Open to all IT students (VET, undergraduate and postgraduate)</li>
+          <li>Enter your coding projects: software, apps, programs, mobile prototypes, websites, games</li>
+          <li>Coding experience determines levels: developing coders, capable coders and proficient coders</li>
+          <li>Judged by industry and Code Fair visitors</li>
+          <li>Team and individual entries</li>
+          <div><a href="https://itcodefair.cdu.edu.au/competitions/coding-competition" class="button">MORE INFO</a></div>
+        </ul>
         </div>
-        
-        <div class="sponsors">
-         <h3>Special Thanks To Our KInd Suppoters</h3>
+        <div class="card1">
+          <div class="media"><img src="./assets/images/poster.jpg" alt="introduction"/></div>
+    
+        <h1>Poster Competitions</h1>
+        <ul>
+          <li>Open to all IT students (VET, undergraduate and postgraduate).</li>
+          <li>Communicate an IT problem or solution visually.</li>
+          <li>Demonstrate your analytical and visual skills.</li>
+          <li>Judged by industry and Code Fair visitors.</li>
+          <li>Team and individual entries</li>
+        </ul>
+        <div><a href="https://itcodefair.cdu.edu.au/competitions/poster-competition" class="button">MORE INFO</a></div>
+        </div>
         </div>
     </section>
 
-  </div>
+    
+    <section>
+      <div class="photos">
+      <p class="heading">Photos of the Previous Competitions</p>
+      <img src="./assets/images/Capture.PNG" alt=""><br><br>
+      <p class="heading">Teams</p>
+      <img src="./assets/images/photo.jpg" alt=""><br><br>
+      <p class="heading">Winners and Awards</p>
+      <img src="./assets/images/photo2.jpg" alt="">
+      </div>
+    </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
   </body>
   <!-- javascript script -->
 <script src="./js/codefair.js" charset="utf-8"></script>

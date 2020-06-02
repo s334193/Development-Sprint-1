@@ -13,6 +13,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </head>
   <body>
+    <style>
+      .top-container {
+        background-image: url('./assets/images/background5.jpg');
+        /* background-repeat: repeat; */
+        background-size: 100% 100%;
+      }
+      </style>
+
     <section class="colored-section" id="title">
 
       <!-- Nav Bar -->
@@ -32,7 +40,7 @@
               <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="CHALLANGES.html">CHALLANGES</a>
+              <a class="nav-link" href="CHALLENGES.html">CHALLENGES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="COMPETITION.html">COMPETITION</a>
@@ -41,16 +49,10 @@
               <a class="nav-link" href="EVENTS.html">EVENTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="FOR-SCHOOLS.html">FOR SCHOOLS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ABOUT.html">ABOUT</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="RESOURCES.html">RESOURCES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#CONTACT-US">CONTACT US</a>
+              <a class="nav-link" href="./CONTACT-US.html">CONTACT US</a>
             </li>
           </ul>
 
@@ -65,8 +67,10 @@
       </div>
 
       <div class="middle-container">
-      <h2>Not sure how to start? Here are some kickstarter tutorials that will be helpful...</h2>
-     <div>
+      <h2>Not sure how to start?</h2><br><br><h2>Here are some kickstarter tutorials that will be helpful...</h2>
+      <section class="card-section">
+     <div class="card2">
+       <img src="./assets/images/poster.jpg"  width="580px" height="200px" alt="">
        <h1>Posters</h1>
        <ul>
          <li>How to create a poster i powerpoint</li>
@@ -74,8 +78,9 @@
          <li>Making a better research poster</li>
        </ul>
      </div> 
-
-    <div>
+  
+    <div class="card2">
+      <img src="./assets/images/webdev.jpg" width="580px" height="200px" alt="">
     <h1>Web Development</h1>
     <ul>
       <li>How to create a stunning website using wordpress</li>
@@ -84,7 +89,8 @@
     </ul>
     </div>
 
-    <div>
+    <div class="card2">
+      <img src="./assets/images/presentation.png" width="580px" height="170px" alt="">
       <h1>Presentations</h1>
       <ul>
         <li>Giving an Effective Poster Presentation</li>
@@ -94,15 +100,12 @@
         <li>What is wrong with powerpoint?</li>
       </ul>
     </div>
+  </section>
     </div>
-      
-      <div class="sponsors">
-       <h3>Special Thanks To Our KInd Suppoters</h3>
-      </div>
   </section>
 
   <!-- scroll up button -->
-<button onclick="topFunction()" id="scrollup" title="Go to top">^</button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
   </body>
   <script src="./js/codefair.js" charset="utf-8"></script>
